@@ -1,0 +1,66 @@
+body, html {
+		background-color: #ffffff;
+		color: #000000;
+}
+.redactor {
+	color: #000;
+	font-size: 31.5px;
+	font-family: 'Calibri';
+	display: grid;
+}
+.container {
+	padding: 5px;
+	display: grid;
+	grid-template-areas:
+	"header header header"
+	"text text text"
+	"menu content content";
+}
+.header {
+	padding: 10mx;
+	font-size: 20px;
+	grid-area: header;
+	background: #000000;
+	color: #transparent;
+}
+
+.menu {
+	grid-area: menu;
+	font-size:20px;
+	background: #F5F5F5;
+	color: #000000;
+	margin-right: 18px;
+}
+
+.content {
+	grid-area: content;
+	font-size: 16px; 
+ 	color: #000000;
+	background-color: #ffffff;
+}
+.text {
+	background-color: #F0F0F0;
+	font-family: Verdana;
+}
+.tabl {
+	border-left: 5px solid #00ff00;
+	background-color: #ffffff;
+	padding: 14px 18px;
+	font-size: 16px;
+	font-family: Melno,Consolas;
+}
+.color1 {
+	color: #660000;
+}
+.kolor {
+	color: #cc0000;
+}
+.kolor2 {
+	color:  #0000cc;
+}
+.red {
+	color: #cc0000;
+}
+.red2 {
+	color: #cc0000;
+}
